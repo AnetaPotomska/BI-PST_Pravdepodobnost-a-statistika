@@ -240,21 +240,21 @@ V R máme funkci na odhad distribuční funkce a to `ecdf()`.
 hist(extrinsic, prob=T, breaks=8, main="Histogram - extrinsic")
 ```
 
-![e1.png](PST%20-%20u%CC%81kol%20bb5719c7ebc04abd81f098d0a8cdc173/e1.png)
+![e1.png](img/e1.png)
 
 ```r
 #hustota
 plot(density(extrinsic),  main="Hustota - extrinsic")
 ```
 
-![e3.png](PST%20-%20u%CC%81kol%20bb5719c7ebc04abd81f098d0a8cdc173/e3.png)
+![e3.png](img/e3.png)
 
 ```r
 #distribuční funkce pomocí empirické distribuční funkce
 plot(ecdf(extrinsic), main="Empirická distribuční funkce - extrinsic")
 ```
 
-![e2.png](PST%20-%20u%CC%81kol%20bb5719c7ebc04abd81f098d0a8cdc173/e2.png)
+![e2.png](img/e2.png)
 
 ### Intrinsic
 
@@ -263,21 +263,21 @@ plot(ecdf(extrinsic), main="Empirická distribuční funkce - extrinsic")
 hist(intrinsic, prob=T, breaks=8, main="Histogram - intrinsic")
 ```
 
-![i1.png](PST%20-%20u%CC%81kol%20bb5719c7ebc04abd81f098d0a8cdc173/i1.png)
+![i1.png](img/i1.png)
 
 ```r
 #hustota
 plot(density(intrinsic),  main="Hustota - intrinsic")
 ```
 
-![i3.png](PST%20-%20u%CC%81kol%20bb5719c7ebc04abd81f098d0a8cdc173/i3.png)
+![i3.png](img/i3.png)
 
 ```r
 #distribuční funkce pomocí empirické distribuční funkce
 plot(ecdf(intrinsic), main="Empirická distribuční funkce - intrinsic")
 ```
 
-![i2.png](PST%20-%20u%CC%81kol%20bb5719c7ebc04abd81f098d0a8cdc173/i2.png)
+![i2.png](img/i2.png)
 
 ## Závěr
 
@@ -461,7 +461,7 @@ legend("topright", legend=c("Normální r.", "Exponenciální r.", "Rovnoměrné
        col=c("red", "green", "blue"), lwd=2, cex=0.6)
 ```
 
-![Untitled](PST%20-%20u%CC%81kol%20bb5719c7ebc04abd81f098d0a8cdc173/Untitled.png)
+![Untitled](img/Untitled.png)
 
 Vidíme, že i vzorky této skupiny se nejvíc přibližují normálnímu rozdělení.
 
@@ -540,7 +540,7 @@ legend("topright", legend=c("Normální r.", "Exponenciální r.", "Rovnoměrné
        col=c("red", "green", "blue"), lwd=2, cex=0.6)
 ```
 
-![Untitled](PST%20-%20u%CC%81kol%20bb5719c7ebc04abd81f098d0a8cdc173/Untitled%201.png)
+![Untitled](img/Untitled%201.png)
 
 Vidíme, že vzorky této skupiny se nejvíc přibližují normálnímu rozdělení.
 
@@ -572,9 +572,9 @@ hist(generatedEx, prob=T, breaks=8, main="Histogram - extrinsic")
 lines(vectorEx, yNormEx, col="red", lwd=2)
 ```
 
-![Untitled](PST%20-%20u%CC%81kol%20bb5719c7ebc04abd81f098d0a8cdc173/Untitled%202.png)
+![Untitled](img/Untitled%202.png)
 
-![Untitled](PST%20-%20u%CC%81kol%20bb5719c7ebc04abd81f098d0a8cdc173/Untitled%203.png)
+![Untitled](img/Untitled%203.png)
 
 ### Intrinsic
 
@@ -586,9 +586,9 @@ hist(generatedIn, prob=T, breaks=8, main="Histogram - intrinsic")
 lines(vectorIn, yNormIn, col="red", lwd=2)
 ```
 
-![Untitled](PST%20-%20u%CC%81kol%20bb5719c7ebc04abd81f098d0a8cdc173/Untitled%204.png)
+![Untitled](img/Untitled%204.png)
 
-![Untitled](PST%20-%20u%CC%81kol%20bb5719c7ebc04abd81f098d0a8cdc173/Untitled%205.png)
+![Untitled](img/Untitled%205.png)
 
 ### Závěr
 
